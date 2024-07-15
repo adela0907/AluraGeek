@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alura Geek</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <img src="" alt="">
+        <h2>Alura Geek</h2>
+        <nav></nav>
+    </header>
+    <main class="main_container">
+        <section class="section-productos">
+            <h1>Mis Productos</h1>
+            <div data-producto class="productos_container">
+                <div class="card">
+                    <div class="imagen_container">
+                        <img src="https://m.media-amazon.com/images/I/71Hirfo0lqL.jpg" alt="img">
+                    </div>
+                    <div class="card_info">
+                        <p>info</p>
+                        <div class="card_value">
+                            <p>$$$$</p>
+                            <button class="delete_button" data-id="${id}">
+                                <img src="" alt="eliminar">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-formulario">
+            <h1>Agregar Productos:</h1>
+            <form class="form_container" data-form="" action="">
+                <input data-nombre placeholder="nombre" type="text">
+                <input data-precio placeholder="prcio" type="text">
+                <input data-imagen placeholder="imagen" type="text">
+
+                <div>
+                    <button type="submit" class="button_submit" id="button">enviar</button>
+                    <button type="reset" class="button_reset" id="button">limpiar</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer class="footer_container">
+
+    </footer>
+    <script src="/js/controles/main.js"></script>
+</body>
+</html>
